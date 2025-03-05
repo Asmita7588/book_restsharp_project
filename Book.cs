@@ -8,9 +8,9 @@ namespace BookRestSharp
 {
     public class Book
     {
-        public int id { get; set; }
-        public string title { get; set; }
-        public string author { get; set; }
-        public bool available { get; set; }
+        public string Id { get; set; }
+        public string Title { get; set; }
+        public string Author { get; set; }
+        public string Available { get; set; }
     }
 }
